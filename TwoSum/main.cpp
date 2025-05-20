@@ -23,8 +23,7 @@ public:
             for (int j = i + 1; j < nums.size(); j++) {
                 int res = nums[i] + nums[j];
                 if (res == target) {
-                    vector<int> result = {i, j};
-                    return result;
+                    return {i, j};
                 }
             }
         }
