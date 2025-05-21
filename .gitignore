@@ -1,2 +1,5 @@
 a.out
+main
+*.o
 .DS_Store
+.vscode
